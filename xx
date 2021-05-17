@@ -1,0 +1,7 @@
+virtualenv tempvenv
+. tempvenv/bin/activate
+pip install poetry
+poetry init
+poetry add git+https://github.com/ab180/airbridge-api-utils
+poetry add git+https://github.com/JoMingyu/pyproject.toml-with-setup.py-test
+pip list
